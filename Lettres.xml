@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Crequis_mission_encoded_texts</title>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Ecole nationale des Chartes</distributor>
+            <availability status="free">
+               <p>Réutilisation libre en contexte acdémique et pour la recherche</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!--<p>Trois lettres concernant la mission de Créqui Montfort provenant des Archives Nationales</p>-->
+            <listPerson>
+               <person xml:id="Cre_01">
+                  <persName>George de Créqui-Montfort</persName>
+                  <occupation>chef de la mission scientifique de Créqui-Montfort</occupation>
+                  <idno type="wikidata">Q3103688</idno>
+               </person>
+               <person xml:id="Sen_01">
+                  <persName>Eugène Sénéchal de la Grange</persName>
+                  <occupation>membre de la mission scientifique de Créqui-Montfort</occupation>
+                  <idno type="bnf">ark:/12148/cb153776752</idno>
+               </person>
+               <person xml:id="Cha_01">
+                  <persName>Joseph Chaumier</persName>
+                  <occupation>ministre de l'Instruction Publique et des Beaux-Arts</occupation>
+                  <idno type="wikidata">Q3184755</idno>
+               </person>
+               <person xml:id="Nev_01">
+                  <persName>Maurice Neveu-Lemaire</persName>
+                  <occupation>membre de la mission scientifique de Créqui-Montfort</occupation>
+                  <idno type="wikidata">Q15998135</idno>
+               </person>
+               <person xml:id="Cou_01">
+                  <persName>George Courty</persName>
+                  <occupation>membre de la mission scientifique de Créqui-Montfort</occupation>
+                  <idno type="wikidata">Q123136028</idno>
+               </person>
+               <person xml:id="Mor_01">
+                  <persName>Adrien de Mortillet</persName>
+                  <occupation>membre de la mission scientifique de Créqui-Montfort</occupation>
+                  <idno type="wikidata">Q16677932</idno>
+               </person>
+               <person xml:id="Gui_01">
+                  <persName>J. Guillaume</persName>
+                  <occupation>membre de la mission scientifique de Créqui-Montfort</occupation>
+                  <idno type="wikidata">Q16677932</idno>
+               </person>
+               <person xml:id="Leo_01">
+                  <persName>Paul Léon</persName>
+                  <occupation>directeur de l'administration des Beaux-Arts</occupation>
+                  <idno type="wikidata">Q3371732</idno>
+               </person>
+               <person xml:id="Enl_01">
+                  <persName>Camille Enlart</persName>
+                  <occupation>directeur du Musée de Sculpture comparée</occupation>
+                  <idno type="wikidata">Q2898660</idno>
+               </person>
+               <person xml:id="Ham_01">
+                  <persName>Ernest Hamy</persName>
+                  <occupation>directeur du Musée d'Ethnographie du Trocadéro</occupation>
+                  <idno type="wikidata">Q1356363</idno>
+               </person>
+               <person xml:id="Bay_01">
+                  <persName>Charles Bayet</persName>
+                  <occupation>directeur de l'Enseignement supérieur</occupation>
+                  <idno type="wikidata">Q2958500</idno>
+               </person>
+               <person xml:id="Cas_01">
+                  <persName>Justin Germain Casimir de Selves</persName>
+                  <occupation>préfet de la Seine</occupation>
+                  <idno type="wikidata">Q2403337</idno>
+               </person>
+            </listPerson>
+            <listOrg>
+               <org xml:id="Mipba_01">
+                  <orgName>Ministère de l'Instruction Publique et des Beaux-Arts</orgName>
+                  <idno type="VIAF">316898315</idno>
+               </org>
+               <org xml:id="Msc_01">
+                  <orgName>Musée de Sculpture comparée</orgName>
+                  <idno type="bnf">ark:/12148/cb118774436</idno>
+               </org>
+            </listOrg>
+            <listPlace>
+               <place xml:id="Bol_01">
+                  <placeName>Bolivie</placeName>
+                  <location>
+                     <address><addrLine>Bolivie</addrLine></address>
+                  </location>
+                  <idno type="wikidata">Q750</idno>
+               </place>
+               <place xml:id="Chi_01">
+                  <placeName>Chili</placeName>
+                  <location>
+                     <address><addrLine>Chili</addrLine></address>
+                  </location>
+                  <idno type="wikidata">Q298</idno>
+               </place>
+               <place xml:id="Fra_01">
+                  <placeName>France</placeName>
+                  <location>
+                     <address><addrLine>France</addrLine></address>
+                  </location>
+                  <idno type="wikidata"></idno>
+               </place>
+               <place xml:id="Per_01">
+                  <placeName>Pérou</placeName>                  
+                  <location>
+                     <address><addrLine>Pérou</addrLine></address>
+                  </location>
+                  <idno type="wikidata">Q419</idno>
+               </place>
+               <place xml:id="Mipba_02">
+                  <placeName>Ministère de l'Instruction Publique et des Beaux-Arts</placeName>
+                  <location>
+                     <address><addrLine>Hôtel de Rochechouart, 110 rue de Grenelle, 75007 Paris</addrLine></address>
+                     <geo>48.862725 2.287592</geo>
+                  </location>
+                  <idno type="VIAF">316898315</idno>
+               </place>
+               <place xml:id="Msc_02">
+                  <placeName>Musée de Sculpture comparée</placeName>
+                  <location>
+                     <address>
+                        <addrLine>1 place du Trocadéro, Palais de Chaillot, 75016 Paris</addrLine>
+                     </address>
+                     <geo>48.8637 2.2769</geo>
+                  </location>
+                  <idno type="bnf">ark:/12148/cb118774436</idno>
+               </place>
+               <place xml:id="Met_01">
+                  <placeName>Musée d'Ethnographie du Trocadéro</placeName>
+                  <location>
+                     <address>
+                        <addrLine>1 place du Trocadéro, Palais de Chaillot, 75016, Paris</addrLine>
+                     </address>
+                     <geo>48.8637 2.2769</geo>
+                  </location>
+                  <idno type="bnf">ark:/12148/cb118649429</idno>
+               </place>
+               <place xml:id="Pat_01">
+                  <placeName>Palais du Trocadéro</placeName>
+                  <location>
+                     <address>
+                        <addrLine>place du Trocadéro, 75016 Paris</addrLine>
+                     </address>
+                     <geo>48.8637 2.2769</geo>
+                  </location>
+                  <idno type="wikidata">Q123256</idno>
+               </place>
+               <place xml:id="Vdp_01">
+                  <placeName>Ville de Paris</placeName>
+                  <location>
+                     <address>
+                        <addrLine>Paris</addrLine>
+                     </address>
+                     <geo>48.866667 2.333333</geo>
+                  </location>
+                  <idno type="wikidata">Q90</idno>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+ <TEI> 
+    <teiHeader>
+       <fileDesc>
+          <titleStmt>
+             <title>Crequi_28_02_1903</title>
+             <respStmt>
+                <resp>Encodé par</resp>
+                <name>Mélina Conter</name>
+             </respStmt>
+          </titleStmt>
+          <publicationStmt>
+             <distributor>Ecole nationale des Chartes</distributor>
+             <availability status="free">
+                <p>Réutilisation libre en contexte acdémique et pour la recherche</p>
+             </availability>
+          </publicationStmt>
+          <sourceDesc>
+             <msDesc>
+                <msIdentifier>
+                   <country>France</country>
+                   <settlement>Pierrefitte-sur-Seine</settlement>
+                   <repository>Archives nationales</repository>
+                   <idno>“Courtivron”(F/17/17270)</idno>
+                </msIdentifier>
+                <physDesc>
+                   <objectDesc>
+                      <supportDesc>
+                         <support>Feuille de papier</support>
+                         <extent>1 page</extent>
+                      </supportDesc>
+                   </objectDesc>
+                </physDesc>
+             </msDesc>
+          </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+          <projectDesc>
+             <p>Ce document a été encodé dans le cadre du projet Crequis_mission.</p>
+          </projectDesc>
+       </encodingDesc>
+       <profileDesc>
+          <correspDesc>
+             <correspAction type="sent">
+                <persName ref="#Cre_01">George de Créqui-Montfort</persName>
+                <persName ref="#Sen_01">Eugène Sénéchal de la Grange</persName>
+                <date when="1903-02-28">28 février 1903</date>
+                <address>
+                   <addrLine>56 Rue de Londres, 75008 Paris</addrLine>
+                </address>
+                <country>France</country>
+             </correspAction>
+             <correspAction type="received">
+                <persName ref="#Cha_01">Joseph Chaumier</persName>
+                <orgName ref="#Mipba_01">Ministère de l'Instruction Publique et des Beaux-Arts</orgName>
+                <placeName ref="#Mipba_02">Ministère de l'Instruction Publique et des Beaux-Arts</placeName>
+                <country>France</country>
+             </correspAction>
+          </correspDesc>
+       </profileDesc>
+    </teiHeader>
+    <text>
+       <body>
+          <div>
+             <opener> 
+                <dateline>Paris le 28 février 1903</dateline>
+                <persName ref="#Cha_01">Monsieur le Ministre de <orgName ref="#Mipba_01">l'Instruction Publique et des Beaux-Arts</orgName></persName>
+                <salute>Monsieur le Ministre,</salute>
+             </opener>
+             <p>Nous avons l'honneur de venir solliciter pour une mission scientifique
+                que nous organisons à nos frais et qui doit quitter la <placeName ref="#Fra_01">France</placeName> 
+                <date when="1903-04-03">le 3 Avril prochain</date>, l'appui moral de votre administration, sous la 
+                forme du titre de "Mission scientifique gratuite" que vous voudriez 
+                bien lui décerner.</p>
+             <p>Après un court séjour au <placeName ref="#Chi_01">Chili</placeName>, nous gravirons les Hauts Plateaux de 
+                la <placeName ref="#Bol_01">Bolivie</placeName> et du <placeName ref="#Per_01">Pérou</placeName> pour y étudier avec soin toutes les questions 
+                anthropologiques, ethnographiques et géologiques qui s'y présentent, 
+                ainsi que les problèmes de physiologie et de pathologie que pose 
+                l'altitude de 4 à 5.000 mètres à laquelle nous ferons nos divers séjours. 
+                Nous avons en outre l'intention de faire une étude approfondie des fleuves, 
+                des rives, et des fonds du lac Titicaca tant au point de vue archéologique 
+                qu'au point de vue de la faune et de la flore des terres et des eaux.</p>
+             <p>Voici d'ailleurs, <persName ref="#Cha_01">Monsieur le Ministre</persName>, la composition de notre mission et nos projets d'étude :</p>
+             <list rend="simple">
+                <item>Linguistique: <persName ref="#Sen_01">M. E. Sénéchal de la Grange</persName>,</item>
+                <item>Médecine, Histoire Naturelle: <persName ref="#Nev_01">Dr Neveu-Lemaire</persName>,</item>
+                <item>Géologie et météorologie : <persName ref="#Cou_01">M. G. Courty</persName>,</item>
+                <item>Archéologie: <persName ref="#Mor_01">M. Adrien de Mortillet</persName>,</item>
+                <item>Anthropométrie et photographie: <persName ref="#Gui_01">M. J. Guillaume</persName>.</item>
+             </list>
+             <p>Nous espérons rapporter de notre voyage d'importantes collections scientifiques 
+                dont nous comptons faire don aux établissements scientifiques et établissements publics.</p>
+             <closer>
+                <salute>Veuillez agréer, <persName ref="#Cha_01">Monsieur le Ministre</persName>, l'expression de notre profond respect.</salute>
+                <signed>
+                   <persName ref="#Cre_01">GM Créqui-Montfort</persName>
+                   <persName ref="#Sen_01">E.Sénéchal de la Grange</persName>
+                </signed>
+                <address><addrLine>56. Rue de Londres</addrLine></address>
+             </closer>
+          </div>
+       </body>
+    </text>
+ </TEI>
+ <TEI>
+    <teiHeader>
+       <fileDesc>
+          <titleStmt>
+             <title>Enlart_08_12_1904</title>
+             <respStmt>
+                <resp>Encodé par</resp>
+                <name>Mélina Conter</name>
+             </respStmt>
+          </titleStmt>
+          <publicationStmt>
+             <distributor>Ecole nationale des Chartes</distributor>
+             <availability status="free">
+                <p>Réutilisation libre en contexte acdémique et pour la recherche</p>
+             </availability>
+          </publicationStmt>
+          <sourceDesc>
+             <msDesc>
+                <msIdentifier>
+                   <country>France</country>
+                   <settlement>Pierrefitte-sur-Seine</settlement>
+                   <repository>Archives nationales</repository>
+                   <idno>20144739/5</idno>
+                </msIdentifier>
+                <physDesc>
+                   <objectDesc>
+                      <supportDesc>
+                         <support>Feuilles de papier</support>
+                         <extent>2 pages</extent>
+                      </supportDesc>
+                   </objectDesc>
+                </physDesc>
+             </msDesc>
+          </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+          <projectDesc>
+             <p>Ce document a été encodé dans le cadre du projet Crequis_mission.</p>
+          </projectDesc>
+       </encodingDesc>
+       <profileDesc>
+          <correspDesc>
+             <correspAction type="sent">
+                <persName ref="#Enl_01">Camille Enlart</persName>
+                <orgName ref="#Msc_01">Musée de Sculpture comparée</orgName>
+                <date when="1904-12-08">8 décembre 1904</date>
+                <placeName ref="#Msc_02">Musée de Sculpture comparée, Palais du Trocadéro</placeName>
+                <country>France</country>
+             </correspAction>
+             <correspAction type="received">
+                <persName ref="#Leo_01">Paul Léon</persName>
+                <orgName ref="#Mipba_01">Ministère de l'Instruction Publique et des Beaux-Arts</orgName>
+                <placeName ref="#Mipba_02">Ministère de l'Instruction Publique et des Beaux-Arts</placeName>
+                <country>France</country>
+             </correspAction>
+          </correspDesc>
+       </profileDesc>
+    </teiHeader>
+    <text>
+       <body>
+          <div>
+             <head>
+                <orgName ref="#Mipba_01">
+                   MINISTÈRE 
+                   DE L’INSTRUCTION PUBLIQUE 
+                   ET DES  BEAUX-ARTS
+                   BEAUX-ARTS
+                   MONUMENTS HISTORIQUES</orgName>
+             </head>
+             <opener>
+                <placeName ref="#Msc_02">MUSÉE DE SCULPTURE COMPARÉE</placeName>
+                <dateline>Palais du Trocadéro le 8 décembre 1904</dateline>
+                <salute><persName ref="#Leo_01">Monsieur le Directeur</persName>,</salute>
+             </opener>
+             <p>Sachant quel intérêt vous portez au <placeName ref="#Msc_02">Musée de Sculpture Comparée</placeName>, 
+                et pleinement confiant dans votre appui pour le règlement de l’affaire 
+                de <persName ref="#Cre_01">Créqui</persName>, dont j’ai eu l’honneur de vous faire juge, je tiens à vous 
+                faire connaître un incident survenu hier.</p>
+             <p>Le <persName ref="#Ham_01">D. Hamy</persName>, directeur du <placeName ref="#Met_01">musée d’ethnographie du Trocadéro</placeName>, m’a pris 
+                hier à partie au sujet des ennuis que je donnerais à <persName ref="#Cre_01">M. de Créqui-Montfort</persName>. 
+                Je lui ai répondu qu’il inversait les rôles et que j’étais très étonné de voir 
+                <persName ref="#Cre_01">M. de Créqui</persName> occuper encore une galerie concédée expressément par la Ville 
+                au <orgName ref="#Msc_01">Musée de Sculpture Comparée</orgName>, et qui ne lui avait été prêtée que jusqu’au 
+                mois de novembre.</p>
+             <p><persName ref="#Ham_01">M. Hamy </persName>s’est alors répandu en plaintes contre <orgName ref="#Mipba_01">l’administration des Beaux-Arts</orgName> 
+                et m’a dit « Cette galerie vous est inutile ». Je lui ai offert de lui prouver 
+                le contraire, je lui ai demandé ce qu’il penserait de moi si je m’installais 
+                chez <persName ref="#Cre_01">M. de Créqui</persName> sous prétexte qu’il aurait une pièce inutile, et je lui ai dit 
+                qu’au surplus vous êtes juge de la question et de vous en ai saisi. Il m’a alors 
+                menacé de nous brouiller et a coupé court à l’entretien.</p>
+             <p>Outre cette conversation, je tiens à vous signaler la situation de plus en plus 
+                fausse de prétendu gardien que <persName ref="#Cre_01">M. de Créqui</persName> s’obstine à maintenir dans le <placeName ref="#Msc_02">Musée 
+                   de Sculpture Comparée</placeName> alors que les collections ne sont plus à lui et que le local 
+                ne lui était prêté que jusqu’en novembre. Il y a maintenant plus : cet homme 
+                se reconnaît lui-même si inutile qu’il ne se tient plus auprès des collections, 
+                il erre en permanence dans le musée, semblant écouter ce qu’on y dit et s’y tenant 
+                en dehors des heures d’ouverture ce qui est irrégulier. Ni moi ni mon personnel ne 
+                nous occupons de lui, mais je considère sa présence comme anormale et pouvant 
+                avoir des inconvénients.</p>
+             <p>Au sujet de cette affaire que j’ai eu l’honneur de remettre entre vos mains, 
+                j’observe depuis votre visite et j’observerai jusqu’à nouvel ordre le silence hors 
+                des cas où l’on m’en parle, et je vous mettrai au courant des incidents s’il en 
+                survient d’autres.</p>
+             <closer>
+                <salute>Veuillez, <persName ref="#Leo_01">Monsieur le Directeur</persName>, agréer l’expression de mon respectueux dévouement.</salute>
+                <signed><persName ref="#Enl_01">Enlart</persName></signed>
+             </closer>
+          </div>
+       </body>
+    </text>
+ </TEI>
+ <TEI>
+    <teiHeader>
+       <fileDesc>
+          <titleStmt>
+             <title>Enlart_15_12_1903</title>
+             <respStmt>
+                <resp>Encodé par</resp>
+                <name>Mélina Conter</name>
+             </respStmt>
+          </titleStmt>
+          <publicationStmt>
+             <distributor>Ecole nationale des Chartes</distributor>
+             <availability status="free">
+                <p>Réutilisation libre en contexte acdémique et pour la recherche</p>
+             </availability>
+          </publicationStmt>
+          <sourceDesc>
+             <msDesc>
+                <msIdentifier>
+                   <country>France</country>
+                   <settlement>Pierrefitte-sur-Seine</settlement>
+                   <repository>Archives nationales</repository>
+                   <idno>20144739/5</idno>
+                </msIdentifier>
+                <physDesc>
+                   <objectDesc>
+                      <supportDesc>
+                         <support>Feuilles de papier</support>
+                         <extent>2 pages</extent>
+                      </supportDesc>
+                   </objectDesc>
+                </physDesc>
+             </msDesc>
+          </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+          <projectDesc>
+             <p>Ce document a été encodé dans le cadre du projet Crequis_mission.</p>
+          </projectDesc>
+       </encodingDesc>
+       <profileDesc>
+          <correspDesc>
+             <correspAction type="sent">
+                <persName ref="#Enl_01">Camille Enlart</persName>
+                <orgName ref="#Msc_01">Musée de Sculpture comparée</orgName>
+                <date when="1903-12-15">15 décembre 1903</date>
+                <placeName ref="#Msc_02">Musée de Sculpture comparée, Palais du Trocadéro</placeName>
+                <country>France</country>
+             </correspAction>
+             <correspAction type="received">
+                <persName ref="#Leo_01">Paul Léon</persName>
+                <orgName ref="#Mipba_01">Ministère de l'Instruction Publique et des Beaux-Arts</orgName>
+                <placeName ref="#Mipba_02">Ministère de l'Instruction Publique et des Beaux-Arts</placeName>
+                <country>France</country>
+             </correspAction>
+          </correspDesc>
+       </profileDesc>
+    </teiHeader>
+    <text>
+       <body>
+          <div>
+             <head>
+                <orgName ref="#Mipba_01">
+                   MINISTÈRE 
+                   DE L’INSTRUCTION PUBLIQUE 
+                   ET DES  BEAUX-ARTS
+                   BEAUX-ARTS
+                   MONUMENTS HISTORIQUES</orgName>
+             </head>
+             <opener>
+                <placeName ref="#Msc_02">MUSÉE DE SCULPTURE COMPARÉE</placeName>
+                <dateline>Palais du Trocadéro le 15 décembre 1903</dateline>
+                <salute><persName ref="#Enl_01">Le Directeur du Musée de Sculpture comparée</persName> à 
+                   <persName ref="#Leo_01">Monsieur le Directeur des Beaux-Arts</persName>.</salute>
+             </opener>
+             <p>En réponse à votre lettre du <date when="1903-12-11">11 courant</date>. J’ai l’honneur de vous 
+                informer que je ne vois pas d’inconvénient à accorder à <persName ref="#Cre_01">M.M. de Créqui-Montfort</persName> 
+                et <persName ref="#Sen_01">Sénéchal de la Grange</persName> l’autorisation d’installer 
+                pour quelques mois dans une partie des galeries extérieures du <placeName ref="#Pat_01">Trocadéro</placeName> 
+                l’exposition des collections rapportées de leur mission en <placeName ref="#Bol_01">Bolivie</placeName>. En effet, ayant 
+                accepté les conditions mises par la Trocadéro <placeName ref="#Vdp_01">Ville de Paris</placeName> à l’installation des 
+                collections complémentaires du <placeName ref="#Msc_02">Musée de Sculpture Comparée</placeName> dans les 
+                galeries extérieures du <placeName ref="#Pat_01">Trocadéro</placeName>, conditions que vous avez bien 
+                voulu me notifier par lettre du <date when="1903-10-15">15 octobre dernier</date>, je crois pouvoir 
+                disposer de ces galeries et vais sous peu de jours commercer à y aménager nos collections.</p>
+             <p>Or, comme il nous est impossible d’avoir terminé cet aménagement et garni toutes les galeries 
+                avant assez longtemps, je ne vois pas d’inconvénient à ce qu’une partie des dites galeries 
+                soit momentanément occupé par une exposition à laquelle <persName ref="#Bay_01">M. le Directeur de l’Enseignement Supérieur</persName> 
+                s’intéresse et qui aura un avantage pour notre Musée puisque les exposants offrent de nous laisser 
+                à titre gracieux les aménagements qu’ils auront fait installer à leurs frais.</p>
+             <p>Je suis donc d’avis d’accéder à leur requête aux conditions suivantes :</p>
+             <list rend="numbered">
+                <item>L’espace concédé ne pourra excéder deux travées de nos galeries.</item>
+                <item>Tous les frais de nettoyage, aménagement, réparations nécessaires à l’installation comme ceux du gardiennage et de l’installation elle-même seront supportés par les exposants.</item>
+                <item>Les exposants devront observer rigoureusement les conditions que nous a faites la <placeName ref="#Vdp_01">Ville de Paris</placeName> d’accord avec <persName ref="#Cas_01">M. le Préfet de la Seine</persName>, c’est-à-dire assurer la libre circulation aux heures d’ouverture du musée, ne pas masquer la vue extérieure, ne rien accrocher aux vitrages.</item>
+                <item>Les Galeries devront être rendues libre au <date when="1904-07-01">1er Juillet</date> (ou juin ?).</item>
+                <item>Suivant la proposition qu’ils veulent bien nous faire, les exposants laisseront à titre gracieux au <orgName ref="#Msc_01">musée de Sculpture Comparée</orgName>, leurs installations après la clôture de l’exposition.</item>
+             </list>            
+             <closer>
+                <signed><persName ref="#Enl_01">Enlart</persName></signed>
+             </closer>
+          </div>
+       </body>
+    </text>
+ </TEI>
+</teiCorpus>
