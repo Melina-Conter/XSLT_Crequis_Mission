@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Crequis mission</title>
+      <style>
+                * {
+                box-sizing: border-box;
+                }
+                
+                body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #fae2d6 ;
+                }
+                
+                /* Style the side navigation */
+                nav {
+                height: 100%;
+                width: 200px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #4f5b93 ;
+                overflow-x: hidden;
+                }
+                
+                /* Side navigation links */
+                nav a {
+                color: white;
+                padding: 16px;
+                text-decoration: none;
+                display: block;
+                }
+                
+                /* Change color on hover */
+                nav a:hover {
+                background-color: #fae2d6;
+                color: #d6336c;
+                }
+                
+                /* Style the content */
+                .content {
+                margin-left: 200px;
+                padding-left: 20px;
+                padding-right: 20px;
+                align-content: center;
+                }
+                
+                .content table {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+                }
+                
+                .content a {
+                color: #d6336c;
+                text-decoration: none;
+                }
+                
+                .content a:hover {
+                color:#4f5b93;
+                text-decoration: underline;
+                }
+                
+                h1 {
+                text-align: center;
+                margin-right:200px;
+                margin-left:400px;
+                }
+                
+                h1, h2, h3 {
+                color: #4f5b93;
+                }
+                
+                #metadonnees {
+                background-color: #4f5b93;
+                color: white;
+                padding: 20px;
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-bottom: 50px;
+                box-shadow: -10px 10px 0px #d6336c;
+                }
+                
+                #metadonnees h2, #metadonnees h3 {
+                color: white;
+                }
+                
+                th, td {
+                width: 200px;
+                word-wrap: break-word;
+                }
+                
+                td, th, thead, caption {
+                padding: 8px;
+                }
+                
+                td{
+                text-align: center;
+                }
+                
+                caption {
+                color:  #4f5b93;
+                font-weight: bold;
+                border-bottom: #4f5b93 solid 3px;
+                }
+                
+                footer {
+                background-color: #fae2d6;
+                bottom: 0;
+                padding: 10px 20px;
+                text-align: center;
+                z-index: 2; /* Pour qu'il passe au-dessus de la nav */
+                width: 100%;
+                position: relative;
+                }
+            </style><script src="https://openseadragon.github.io/openseadragon/openseadragon.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.css" rel="stylesheet"><script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.js"></script></head>
+   <body>
+      <h1>La Mission Créqui Montfort (1904)</h1>
+      <nav><a href="./Accueil.html">Accueil</a><a href="././Lettre1.html">Lettre 1</a><a href="././Lettre2.html">Lettre 2</a><a href="././Lettre3.html">Lettre 3</a><a href="./Index.html">Index</a></nav>
+      <div class="content">
+         <div>
+            <h2>Le projet Crequi's Mission</h2>
+            <p>Ce projet développe un schéma d'encodage XML conforme à la norme TEI pour les documents
+               archivistiques conservés aux Archives nationales. Il se concentre sur les matériaux
+               relatifs à la mission scientifique de 1904 dirigée par Georges de Créqui-Montfort
+               en Amérique du Sud et sur les collections ethnographiques et archéologiques qu'elle
+               a rassemblées. Les archives comprennent de la correspondance, notamment des lettres
+               échangées entre les membres de la mission et le Ministère de l'Instruction publique
+               et des Beaux-Arts, ainsi que des communications avec les conservateurs des musées
+               parisiens.</p>
+            <p>Les fichiers sources sont des transcriptions des lettres originales au format <code>.txt</code>. Leur encodage en XML TEI permet une représentation numérique structurée, offrant
+               aux chercheurs la possibilité d'analyser les rôles des individus, des institutions,
+               ainsi que la chronologie des événements liés à l'acquisition et à la répartition des
+               collections. Les documents archivistiques couvrent la période 1903–1912, illustrant
+               l'organisation, l'exécution de la mission et la gestion de ses artefacts, répartis
+               dans les musées régionaux de France.</p>
+            <h3>Fonctionnalités du projet</h3>
+            <ul>
+               <li>️ <strong>Fichiers sources</strong> : Lettres transcrites au format <code>.txt</code> et encodées en XML TEI.</li>
+               <li>📜 <strong>Document ODD</strong> : Un ODD TEI personnalisé définit le schéma, axé sur les éléments spécifiques à la
+                  correspondance.</li>
+               <li>🛠️ <strong>Schéma Relax NG</strong> : Généré à partir de l'ODD pour valider les documents encodés.</li>
+               <li>📚 <strong>Documentation</strong> : Des directives complètes pour l'encodage et l'utilisation du schéma.</li>
+               <li>📄 <strong>Encodages XML</strong> : Documents structurés de manière uniforme selon le schéma TEI personnalisé.</li>
+            </ul>
+            <h3>Conception du schéma</h3>
+            <p>Le schéma est spécifiquement adapté pour l'encodage des lettres et l'identification
+               des éléments clés tels que les lieux, les individus et les organisations impliqués
+               dans la mission. Cette structure permet aux chercheurs de suivre les déplacements
+               géographiques, d'analyser les rôles institutionnels et de mieux comprendre le contexte
+               historique de la mission.</p>
+         </div>
+         <div id="timeline">
+            <h2>Timeline de la mission et de sa correspondance</h2>
+         </div>
+         <div id="visioneuse">
+            <h2>L'Itinéraire de la mission</h2>
+            <p>Carte : "Ministère de l'Instruction publique. Mission G. de Créqui Montfort et E.
+               Sénéchal de La Grange, 1903. Itinéraire général suivi par la mission [Document cartographique]
+               / dressé par V. Huot".<br>
+               Conservée à la BNF. Notice : <a href="https://catalogue.bnf.fr/ark:/12148/cb407199712">https://catalogue.bnf.fr/ark:/12148/cb407199712</a> .
+               </p>
+            <div id="_viewer" style="width: 100%; height: 800px;"></div><script>
+                        var _viewer = OpenSeadragon({
+                        id: "_viewer",
+                        prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+                        sequenceMode: true,
+                        tileSources:['https://gallica.bnf.fr/iiif/ark%3A%2F12148%2Fbtv1b8443634z/f1/info.json',
+                        
+                        ],
+                        });
+                    </script></div>
+         <div>
+            <h2>Liste des lettres déjà encodées : </h2>
+            <p><a href="./Lettre1.html">Lettre 1</a> : 
+               </p>
+            <p>
+               Conservation : Archives nationales, Pierrefitte-sur-Seine, France.<br>
+               Cote : “Courtivron”(F/17/17270)<br>
+               Description physique du document : Feuille de papier, 1 page.
+               </p>
+            <ul>
+               <li>Expéditeur : 
+                  George de Créqui-Montfort et Eugène Sénéchal de la Grange.
+                  </li>
+               <li>Date d'envoi : 28 février 1903</li>
+               <li>Lieu d'expédition : 
+                  56 Rue de Londres, 75008 Paris, 
+                  France.
+                  
+                  </li>
+               <li>Destinataire : Joseph Chaumier.</li>
+               <li>Lieu de réception : 
+                  Ministère de l'Instruction Publique et des Beaux-Arts, 
+                  France.
+                  </li>
+            </ul>
+            <p><a href="./Lettre2.html">Lettre 2</a> : 
+               </p>
+            <p>
+               Conservation : Archives nationales, Pierrefitte-sur-Seine, France.<br>
+               Cote : 20144739/5<br>
+               Description physique du document : Feuilles de papier, 2 pages.
+               </p>
+            <ul>
+               <li>Expéditeur : 
+                  Camille Enlart.
+                  </li>
+               <li>Date d'envoi : 8 décembre 1904</li>
+               <li>Lieu d'expédition : 
+                  Musée de Sculpture comparée, Palais du Trocadéro, 
+                  France.
+                  
+                  </li>
+               <li>Destinataire : Paul Léon.</li>
+               <li>Lieu de réception : 
+                  Ministère de l'Instruction Publique et des Beaux-Arts, 
+                  France.
+                  </li>
+            </ul>
+            <p><a href="./Lettre3.html">Lettre 3</a> : 
+               </p>
+            <p>
+               Conservation : Archives nationales, Pierrefitte-sur-Seine, France.<br>
+               Cote : 20144739/5<br>
+               Description physique du document : Feuilles de papier, 2 pages.
+               </p>
+            <ul>
+               <li>Expéditeur : 
+                  Camille Enlart.
+                  </li>
+               <li>Date d'envoi : 15 décembre 1903</li>
+               <li>Lieu d'expédition : 
+                  Musée de Sculpture comparée, Palais du Trocadéro, 
+                  France.
+                  
+                  </li>
+               <li>Destinataire : Paul Léon.</li>
+               <li>Lieu de réception : 
+                  Ministère de l'Instruction Publique et des Beaux-Arts, 
+                  France.
+                  </li>
+            </ul>
+         </div><br><footer>
+            <div>Ce site a été réalisé dans le cadre du projet <i>Crequi's Mission</i>.</div><br><div>
+               Dépôt GITHUB : 
+               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"><a href="https://github.com/Melina-Conter/Crequis_mission_tei">
+                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></a></svg></div>
+            <div><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Logo_Ecole_nationale_des_Chartes_PSL.svg" height="40" alt="Logo_ENC"></div>
+         </footer>
+      </div><script>
+                    var items = new vis.DataSet([
+                    {id: 1, content: 'Mission Créqui Montfort', start: '1903-04-03', end: '1904-05-15', title:'(1903-04-03) - (1904-05-15)', style: 'background-color: #4f5b93; color: #ffffff; border-color: #4f5b93'},
+                    
+                        {id: 2, 
+                        content: 'Lettre 1', 
+                        start: '1903-02-28',
+                        title: '1903-02-28',
+                        style : 'background-color: #d6336c; color: white; border-color: #d6336c'},
+                    
+                        {id: 3, 
+                        content: 'Lettre 2', 
+                        start: '1904-12-08',
+                        title: '1904-12-08',
+                        style : 'background-color: #d6336c; color: white; border-color: #d6336c'},
+                    
+                        {id: 4, 
+                        content: 'Lettre 3', 
+                        start: '1903-12-15',
+                        title: '1903-12-15',
+                        style : 'background-color: #d6336c; color: white; border-color: #d6336c'},
+                    
+                    ]);
+                    
+                    var container = document.getElementById('timeline');
+                    var options = {
+                    zoomable: true,
+                    min: '1902-01-01',  // 🟢 Début de la plage d'affichage
+                    max: '1905-12-31'   // 🔴 Fin de la plage d'affichage
+                    };
+                    
+                    var timeline = new vis.Timeline(container, items, options);
+                </script></body>
+</html>
